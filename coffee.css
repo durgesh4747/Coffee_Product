@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin:0px;
+    text-decoration: none;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(2,600px);
+    text-align: center;
+}
+.product{
+    border:2px solid;
+    margin-left: 300px;
+    text-align: center;
+    justify-content: center;
+}
+.name{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.price{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
