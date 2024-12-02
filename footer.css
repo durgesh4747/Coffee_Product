@@ -1,0 +1,34 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    height: 120px;
+    width:100%; 
+    background-color: darkgray;
+    display: flex;
+    
+}
+
+#web_nm{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#web_nm:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#cpy{
+    position: absolute;
+    bottom: 0px;
+    height: 20px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
